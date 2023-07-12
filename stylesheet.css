@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-bar {
+  height: 5vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #222222;
+  border-bottom: 5px solid #1e1e1e;
+  padding: 2rem;
+}
+.logo-img {
+  width: 150px;
+  height: auto;
+}
+#search-icon {
+  color: #b3b3b3;
+}
+.searchbar-text {
+  color: #ffff;
+  background-color: #222222;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+}
+.searchbar-text::placeholder {
+  color: #b3b3b3;
+}
+.menus a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 100;
+}
+.login-btn {
+  background-color: #acf22f;
+  border: 1px solid #acf22f;
+  border-radius: 8px;
+  padding: 8px 30px;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.login-btn:hover {
+  background-color: transparent;
+  border: 1px solid #ffff;
+}
+.join-btn {
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.join-btn:hover {
+  background-color: #acf22f;
+  border: 1px solid #acf22f;
+}
+.main {
+  background-color: #222222;
+}
+.left-side {
+  padding-top: 90px;
+}
+.left-side img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.edit-btn {
+  background-color: #acf22f;
+  border: 1px solid #acf22f;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  width: 65%;
+}
+.edit-btn:hover {
+  background-color: transparent;
+  border: 1px solid #ffff;
+}
+.right-side {
+  height: 100%;
+  background-color: #363636;
+  border-radius: 25px 25px 0px 0px;
+}
+.general {
+  font-size: 15px;
+  background-color: #363636;
+  padding: 0.5rem;
+  padding-left: 25px;
+  text-align: left;
+}
+#dark-icon {
+  color: #79797b;
+  font-size: 12px;
+  line-height: 24px;
+  transform: rotate(330deg);
+}
+#icon-utility {
+  color: #79797b;
+  font-size: 12px;
+  line-height: 24px;
+}
+.greater-than {
+  font-size: 12px;
+  line-height: 24px;
+}
+.left-text {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.about {
+  font-size: 16px;
+  background-color: #363636;
+  padding: 10px 200px 10px 20px;
+  text-align: left;
+}
+.chat-search input {
+  background-color: #222222;
+  border: none;
+  outline: none;
+  color: #ffff;
+  font-weight: 100;
+  width: 70%;
+}
+.chat-search ::placeholder {
+  font-size: 0.9rem;
+  color: #ffff;
+  font-weight: 100;
+}
+
+.image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.text {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.time {
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+.details {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+.inner-chat {
+  background-image: url(./images/back-ground.PNG);
+  border-radius: 25px 25px 0 0;
+  height: 100%;
+}
+.chat-text {
+  color: #363636;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.write-message {
+  height: auto;
+  width: auto;
+  padding: 0.7rem 0;
+  background-color: #363636;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: #fffffff1;
+}
+.write-message::placeholder {
+  color: #fffffff1;
+}
+#menu-icon {
+  color: #ffff;
+  font-size: 3rem;
+  cursor: pointer;
+  display: none;
+  font-weight: 200;
+}
+.menu-bar {
+  height: 100vh;
+  width: auto;
+  background-color: #222222;
+  /* position: absolute;
+  top: -100%; */
+  display: none;
+}
+.menu-btn {
+  padding-top: 1rem;
+}
+.menu-btn button {
+  padding: 10px 50px;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  background-color: #acf22f;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.5rem;
+  color: #ffff;
+}
+.menu-links a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* ..........Responsiveness.......... */
+
+@media screen and (max-width: 991px) {
+  .left-side {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #menu-icon {
+    display: block;
+  }
+  .menus a {
+    display: none;
+  }
+  .join-btn {
+    display: none;
+  }
+  .login-btn {
+    display: none;
+  }
+}
